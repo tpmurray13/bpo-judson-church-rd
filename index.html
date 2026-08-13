@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>525 &amp; 541 Judson Church Rd — Broker Price Opinion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root, [data-theme="light"] {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --text-2xl: clamp(2rem, 1.2rem + 2.5vw, 3.5rem);
+      --space-1: .25rem; --space-2: .5rem; --space-3: .75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
+      --color-bg:#ffffff; --color-surface:#ffffff; --color-surface-2:#eaf2ed; --color-border:#e1ded6; --color-text:#333333; --color-text-muted:#6b6f6c;
+      --color-primary:#17613c; --color-primary-2:#d9ebe1; --color-band:#a3701f; --color-band-soft:#f2e6d3;
+      --color-alert:#a3341f; --color-alert-soft:#f2dcd3;
+      --radius-md:.5rem; --radius-lg:.9rem; --radius-xl:1.2rem;
+      --shadow-sm:0 1px 2px rgba(0,0,0,.06); --shadow-md:0 8px 24px rgba(0,0,0,.08);
+      --font-display:'Outfit', system-ui, sans-serif; --font-body:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    }
+    *{box-sizing:border-box;margin:0;padding:0} html{scroll-behavior:smooth} body{font-family:var(--font-body);font-size:var(--text-base);color:var(--color-text);background:var(--color-bg);line-height:1.6}
+    a{color:var(--color-primary)} .container{max-width:1100px;margin:0 auto;padding:0 var(--space-4)}
+    .topbar{position:sticky;top:0;background:rgba(255,255,255,.96);backdrop-filter:blur(10px);border-bottom:2px solid var(--color-primary);z-index:20}
+    .topbar-inner{display:flex;justify-content:space-between;align-items:center;padding:var(--space-3) 0;flex-wrap:wrap;gap:var(--space-2)}
+    .logo{display:flex;gap:var(--space-3);align-items:center;font-weight:600}
+    .logo img{height:42px;width:auto;display:block}
+    .hero{padding:var(--space-16) 0 var(--space-12)}
+    .eyebrow{font-size:var(--text-sm);letter-spacing:.12em;text-transform:uppercase;color:var(--color-text-muted);margin-bottom:var(--space-3)}
+    h1,h2,h3,h4{font-family:var(--font-display);line-height:1.12;font-weight:700;color:var(--color-primary)}
+    h1{font-size:var(--text-2xl);max-width:30ch;margin-bottom:var(--space-4)} h2{font-size:var(--text-xl);margin-bottom:var(--space-5)} h3{font-size:var(--text-lg);margin-bottom:var(--space-3)} h4{font-size:var(--text-base);margin-bottom:var(--space-2)}
+    .lede{max-width:72ch;color:var(--color-text-muted)}
+    .grid{display:grid;grid-template-columns:1.3fr .9fr;gap:var(--space-8);align-items:start}
+    .card{background:var(--color-surface);border:1px solid rgba(31,35,32,.12);border-radius:var(--radius-xl);padding:var(--space-6);box-shadow:var(--shadow-sm)}
+    .stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--space-4);margin-top:var(--space-8)}
+    .stat{background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-4)} .stat-label{font-size:var(--text-xs);text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted)} .stat-value{font-size:var(--text-lg);font-weight:700;margin-top:.2rem;color:var(--color-primary)}
+    .stat-alert .stat-value{color:var(--color-alert)}
+    section{padding:var(--space-10) 0}
+    section.alt{background:var(--color-surface-2)}
+    .table{width:100%;border-collapse:collapse;font-size:var(--text-sm)} .table th,.table td{padding:.85rem .6rem;border-bottom:1px solid rgba(31,35,32,.1);text-align:left;vertical-align:top} .table th{color:var(--color-text-muted);font-weight:600;white-space:nowrap}
+    .table-wrap{overflow-x:auto}
+    .two-col{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-8)}
+    .three-col{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-4)}
+    .pill{display:inline-block;background:var(--color-primary-2);color:var(--color-primary);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-band{display:inline-block;background:var(--color-band-soft);color:var(--color-band);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-alert{display:inline-block;background:var(--color-alert-soft);color:var(--color-alert);padding:.35rem .7rem;border-radius:999px;font-size:var(--text-xs);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+    .pill-outline{display:inline-block;border:1px solid rgba(31,35,32,.18);color:var(--color-text-muted);padding:.3rem .65rem;border-radius:999px;font-size:var(--text-xs);font-weight:600;margin:.15rem .25rem .15rem 0}
+    .hero-photo{width:100%;border-radius:var(--radius-xl);box-shadow:var(--shadow-md);display:block;margin-bottom:var(--space-6);object-fit:cover;max-height:520px}
+    .photo-sm{width:100%;border-radius:var(--radius-lg);box-shadow:var(--shadow-sm);display:block;margin-bottom:var(--space-4);object-fit:cover;max-height:260px}
+    .note{font-size:var(--text-sm);color:var(--color-text-muted);margin-top:var(--space-4)}
+    footer{padding:var(--space-10) 0;background:var(--color-primary);color:#ffffff;font-size:var(--text-sm)}
+    .footer-inner{display:flex;align-items:center;gap:var(--space-6);flex-wrap:wrap}
+    .footer-logo{height:36px;width:auto;filter:brightness(0) invert(1)}
+    .disclaimer{background:var(--color-surface-2);border-radius:var(--radius-lg);padding:var(--space-5);font-size:var(--text-sm);color:var(--color-text-muted);margin-top:var(--space-6)}
+    .prop-divider{display:flex;align-items:center;gap:var(--space-4);margin:var(--space-4) 0 var(--space-6)}
+    .prop-divider .badge{background:var(--color-primary);color:#fff;font-family:var(--font-display);font-weight:700;font-size:var(--text-xs);letter-spacing:.06em;text-transform:uppercase;padding:.4rem .85rem;border-radius:999px;white-space:nowrap}
+    .prop-divider .badge.two{background:var(--color-band)}
+    .prop-divider hr{flex:1;border:none;border-top:1px solid rgba(31,35,32,.15)}
+    .terms-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-6)}
+    @media (max-width: 820px){.grid,.two-col,.terms-grid,.three-col{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}}
+    .btn-print{display:inline-flex;align-items:center;gap:.5rem;background:var(--color-primary);color:#ffffff;border:none;padding:.55rem 1.1rem;border-radius:999px;font-family:var(--font-body);font-weight:600;font-size:var(--text-xs);letter-spacing:.02em;cursor:pointer;box-shadow:var(--shadow-sm);transition:background .15s ease}
+    .btn-print:hover{background:#0f4a2d}
+    .btn-print svg{width:15px;height:15px;fill:currentColor;flex:none}
+    .topbar-actions{display:flex;align-items:center;gap:.75rem;flex-wrap:wrap}
+    @media print {
+      .no-print{display:none !important}
+      *{-webkit-print-color-adjust:exact;print-color-adjust:exact;color-adjust:exact}
+      html,body{font-size:10.5pt;line-height:1.45}
+      .topbar{position:static;backdrop-filter:none;box-shadow:none;border-bottom:2px solid var(--color-primary)}
+      .hero{padding:14pt 0 10pt}
+      section{padding:12pt 0}
+      .grid,.two-col,.terms-grid,.three-col{grid-template-columns:1fr;gap:10pt}
+      .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:8pt}
+      .hero-photo{max-height:260pt;box-shadow:none}
+      .photo-sm{max-height:150pt;box-shadow:none}
+      h1{font-size:19pt;margin-bottom:8pt}
+      h2{font-size:14.5pt;margin-bottom:8pt}
+      h3{font-size:12pt;margin-bottom:6pt}
+      h4{font-size:10.5pt;margin-bottom:4pt}
+      .card{box-shadow:none;border:1px solid #d7d3c8;padding:10pt}
+      .stat{page-break-inside:avoid}
+      table{font-size:9pt}
+      tr{page-break-inside:avoid}
+      .comps-table{table-layout:fixed;width:100%}
+      .comps-table th,.comps-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:6.8pt;line-height:1.35;padding:.3rem .2rem}
+      .adj-table{table-layout:fixed;width:100%}
+      .adj-table th,.adj-table td{white-space:normal;word-wrap:break-word;overflow-wrap:break-word;font-size:7.1pt;line-height:1.35;padding:.3rem .2rem}
+      .adj-table th:nth-child(1),.adj-table td:nth-child(1){width:16%}
+      .adj-table th:nth-child(2),.adj-table td:nth-child(2){width:10%}
+      .adj-table th:nth-child(3),.adj-table td:nth-child(3){width:8%}
+      .adj-table th:nth-child(4),.adj-table td:nth-child(4){width:56%}
+      .adj-table th:nth-child(5),.adj-table td:nth-child(5){width:10%}
+      .table-wrap{overflow-x:visible}
+      h2,h3,h4{page-break-after:avoid}
+      .prop-divider{page-break-after:avoid}
+      footer{background:var(--color-primary) !important;color:#ffffff !important;padding:10pt 0}
+      a{color:var(--color-primary) !important;text-decoration:none}
+      @page{margin:0.55in}
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="logo">
+        <img src="assets/gm-logo.svg" alt="Grant-Murray Real Estate" />
+      </div>
+      <div class="topbar-actions">
+        <div class="pill">Prepared for Fay East Congregation of Jehovah's Witnesses Fay NC Inc</div>
+        <button class="btn-print no-print" type="button" onclick="window.print()">
+          <svg viewBox="0 0 24 24"><path d="M6 9V2h12v7h2a2 2 0 0 1 2 2v7h-4v4H6v-4H2v-7a2 2 0 0 1 2-2h2zm2-5v5h8V4H8zm8 14H8v3h8v-3zm2-2h2v-5H4v5h2v-2h12v2z"/></svg>
+          Print / Save as PDF
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow">Broker Price Opinion &middot; New Listing Valuation &middot; I-95 / Cedar Creek Rd Interchange, Fayetteville, NC</div>
+        <h1>525 &amp; 541 Judson Church Rd &mdash; Broker Price Opinion</h1>
+        <p class="lede">Two adjoining A1-Agricultural-zoned parcels owned by Fay East Congregation of Jehovah's Witnesses Fay NC Inc, sitting directly inside the I-95 / Cedar Creek Rd interchange commercial node in Fayetteville, NC &mdash; <strong>525 Judson Church Rd</strong>, a 2.00-acre parcel improved with a 4,750 SF Kingdom Hall building, and <strong>541 Judson Church Rd</strong>, an adjoining 2.72-acre vacant tract. Both parcels were acquired together on 2/2/2016 under a single exempt deed and have never traded at arm's length. This opinion independently researches verified closed-sale comparables &mdash; church/religious-assembly building sales for 525 and vacant A1-Agricultural land sales for 541, both restricted to Cumberland County and weighted toward proximity to I-95 &mdash; to recommend an initial asking price for each parcel. <strong>The two parcels are priced and valued independently</strong> in this report.</p>
+        <img class="hero-photo" src="assets/judson-hero.jpg" alt="Annotated aerial view of 525 and 541 Judson Church Rd showing exact Cumberland County GIS parcel boundaries, the Kingdom Hall building, I-95, and the SpringHill Suites / Tru by Hilton hotels at the Cedar Creek Rd interchange" />
+        <div class="stats">
+          <div class="stat"><div class="stat-label">525 Judson Church Rd &mdash; 2.00 ac improved</div><div class="stat-value">Recommend list $459,900</div></div>
+          <div class="stat"><div class="stat-label">541 Judson Church Rd &mdash; 2.72 ac vacant</div><div class="stat-value">Recommend list $84,900</div></div>
+          <div class="stat"><div class="stat-label">Combined recommended list</div><div class="stat-value">$544,800</div></div>
+          <div class="stat"><div class="stat-label">Listing / commission terms</div><div class="stat-value">6% co-brokered / 4% in-house</div></div>
+        </div>
+        <p class="note">Full comp research, adjustment grids, and an honest discussion of interchange-proximity premiums (and a counter-example that argues against overstating them) are set out property-by-property below.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Subject property summaries</h2>
+        <div class="two-col">
+          <div class="card">
+            <div class="pill">Property 1 &mdash; Improved</div>
+            <h3 style="margin-top:.6rem">525 Judson Church Rd, Fayetteville, NC 28312</h3>
+            <table class="table">
+              <tr><th>PIN</th><td>0455-48-6526</td></tr>
+              <tr><th>Lot size</th><td>2.00 acres</td></tr>
+              <tr><th>Zoning</th><td>A1 &ndash; Agricultural District</td></tr>
+              <tr><th>Building</th><td>4,750 SF Kingdom Hall (county <em>GROSS_LEASABLE_AREA</em> field), plus a small outbuilding assessed at $16,219</td></tr>
+              <tr><th>Assessed land value</th><td>$43,500 (~$21,750/ac)</td></tr>
+              <tr><th>Assessed building value</th><td>$292,612</td></tr>
+              <tr><th>Total assessed value</th><td>$336,112</td></tr>
+              <tr><th>Deed / acquisition</th><td>Deed Book 9797 / Page 0387, dated 2/2/2016, 0 revenue stamps &mdash; exempt / non-arm's-length transfer, no usable recorded sale price</td></tr>
+              <tr><th>Source</th><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270455-48-6526%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">Cumberland County GIS parcel record</a></td></tr>
+            </table>
+          </div>
+          <div class="card">
+            <div class="pill-band">Property 2 &mdash; Vacant Land</div>
+            <h3 style="margin-top:.6rem">541 Judson Church Rd, Fayetteville, NC 28312</h3>
+            <table class="table">
+              <tr><th>PIN</th><td>0455-48-6756</td></tr>
+              <tr><th>Lot size</th><td>2.72 acres</td></tr>
+              <tr><th>Zoning</th><td>A1 &ndash; Agricultural District</td></tr>
+              <tr><th>Improvements</th><td>None &mdash; raw / vacant land</td></tr>
+              <tr><th>Assessed land value</th><td>$52,993 (~$19,483/ac)</td></tr>
+              <tr><th>Total assessed value</th><td>$52,993</td></tr>
+              <tr><th>Deed / acquisition</th><td>Same deed as 525 &mdash; Deed Book 9797 / Page 0387, dated 2/2/2016, 0 revenue stamps &mdash; exempt / non-arm's-length transfer, no usable recorded sale price</td></tr>
+              <tr><th>Source</th><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270455-48-6756%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">Cumberland County GIS parcel record</a></td></tr>
+            </table>
+          </div>
+        </div>
+        <p class="note">Both parcels sit in the immediate I-95 / Cedar Creek Rd interchange node &mdash; the SpringHill Suites by Marriott Fayetteville I-95 (520 Judson Church Rd) and Tru by Hilton Fayetteville I-95 are both within a few hundred feet, and Judson Baptist Church (505 Judson Church Rd) is adjacent. Neither subject parcel has ever recorded an arm's-length sale, so no prior-purchase comp exists for either; all comps below are independently researched third-party transactions. Parcel data verified against Cumberland County GIS tax records, pulled 8/13/2026.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Methodology and verification basis</h2>
+        <div class="card">
+          <p style="margin-top:0">All comparable sale prices below come from <strong>recorded deed data in the Cumberland County tax/GIS system</strong>, independently researched by Grant-Murray Real Estate &mdash; comps are restricted to Cumberland County and, within the vacant-land set, weighted toward proximity to the I-95 interchange, per the scope of this assignment.</p>
+          <ul style="margin:0 0 0 1.2rem;padding:0">
+            <li style="margin-bottom:.5rem"><strong>Source of record:</strong> the <a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0" target="_blank" rel="noopener">Cumberland County Tax Parcels GIS layer</a> publishes recorded deed book/page, deed date, tax acreage, building area (<em>GROSS_LEASABLE_AREA</em>), zoning, and revenue (excise) stamps for every parcel.</li>
+            <li style="margin-bottom:.5rem"><strong>Sale price derivation:</strong> North Carolina excise tax is $2.00 per $1,000 of consideration (<a href="https://www.ccrod.org/frequently-asked-questions/" target="_blank" rel="noopener">Cumberland County Register of Deeds FAQ</a>), so <strong>sale price = revenue stamps &times; 500</strong>. Every price below was computed and verified this way against a live GIS query.</li>
+            <li style="margin-bottom:.5rem"><strong>Arm's-length screen:</strong> parcels with 0 revenue stamps (exempt / non-consideration transfers &mdash; including the subject's own 2016 acquisition) are excluded from the comp statistics; excluded transfers relevant to this assignment are disclosed below.</li>
+            <li style="margin-bottom:.5rem"><strong>Multi-parcel deeds</strong> are disclosed where they occur (two of the church comps convey an adjoining vacant parcel in the same deed); the full deed price and the extra land are both noted.</li>
+            <li>Grantor (seller) names could not be retrieved &mdash; the county Register of Deeds public search was unreachable during this research session &mdash; and are reported as n.a. throughout. Building age (<em>YEAR_BUILT</em>) is also null for exempt/institutional parcels including the subject, so no age/condition adjustment is quantified from county data.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Market context &mdash; the I-95 / Cedar Creek Rd interchange node</h2>
+        <div class="card">
+          <p style="margin-top:0">Both subject parcels carry A1-Agricultural zoning, but they sit inside an active, hotel-anchored interstate interchange node: the SpringHill Suites by Marriott (520 Judson Church Rd, built 2023) and Tru by Hilton both opened within the last few years a few hundred feet away. That raises the question of whether the subject parcels &mdash; and especially the vacant 541 parcel &mdash; should be valued closer to commercially-zoned interchange land or to rural A1 land further from the interchange.</p>
+          <p><strong>The data says the premium tracks zoning and frontage, not mere proximity.</strong> Vacant land at this interchange with CC or LC commercial zoning has sold for <strong>$71,006 &ndash; $284,091 per acre</strong> (four sales within 1.1 miles, including the parcel directly adjacent at <a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=LOCATION_ADDR%3D%27520+JUDSON+CHURCH+RD%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">520 Judson Church Rd</a>). A1-Agricultural tracts of similar size in the same county sold for a fraction of that &mdash; <strong>$9,815 &ndash; $41,935 per acre</strong>, median $20,652/ac (nine sales). Within the A1 group there is a real but much smaller location gradient: the two A1 tracts nearest this interchange (<a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270455-96-2109%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">3108 A B Carter Rd</a>, $41,935/ac at 0.97 mi, and <a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=DEED_BOOK%3D%2712385%27+AND+DEED_PAGE%3D%270286%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">3051 Fields Rd</a>, $37,500/ac at 1.83 mi) both sold above the rural A1 median, while tracts 2&ndash;3.3 miles out sold at the bottom of the range.</p>
+          <p><strong>Honest counter-evidence:</strong> <a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270456-41-8515%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">0 Nuffield Rd</a> is only 0.58 miles from the subject but sold for just $9,722/ac ($35,000 for 3.60 ac, rural-residential zoning) &mdash; because it is an interior tract with no commercial frontage or visibility. That sale demonstrates that raw distance to the interchange does not by itself create value; frontage and zoning do most of the work. Given that, 541's 2.72 vacant acres are valued in this report toward the <strong>upper end of the A1-Agricultural range with an upward adjustment for its interchange-node location and rezoning potential</strong> &mdash; not at the commercial-zoned interchange rate, which would require a rezoning that is not currently in hand.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="prop-divider container"><div class="badge">Property 1</div><hr/></div>
+
+    <section>
+      <div class="container">
+        <h2>525 Judson Church Rd &mdash; comparable building sales</h2>
+        <p class="lede" style="margin-bottom:var(--space-6)">Thirteen verified, arm's-length church and religious-assembly building sales in Cumberland County, all independently confirmed against county deed and GIS records (not taken from any marketing brochure). Distances are measured from parcel-polygon centroids to the subject. The seven comps used in the adjustment matrix below are marked <strong>&#9733;</strong>.</p>
+        <div class="card table-wrap">
+          <table class="table comps-table">
+            <tr><th>Comp</th><th>Sale Date</th><th>Price</th><th>Bldg SF</th><th>Acreage</th><th>$/SF</th><th>Dist.</th><th>Zoning</th><th>Notes</th><th>Source</th></tr>
+            <tr><td><strong>&#9733; 619 Cedar Creek Rd</strong></td><td>2/2/2022</td><td>$625,000</td><td>11,416</td><td>2.00</td><td>$54.75</td><td>2.3 mi</td><td>SF6</td><td>United Gospel Fellowship Covenant Ministries &mdash; closest location comp, same Cedar Creek Rd corridor</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270446-67-3785%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 2415 Rosehill Rd</strong></td><td>8/23/2018</td><td>$360,000</td><td>4,969</td><td>2.14</td><td>$72.45</td><td>6.8 mi</td><td>SF6</td><td>Islamic Center of Fayetteville &mdash; closest size/site match to subject</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270438-47-0845%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 4519 Calico St</strong></td><td>11/30/2023</td><td>$425,000</td><td>4,368</td><td>2.00</td><td>$97.30</td><td>6.9 mi</td><td>R10</td><td>Grace Place Christian Church &mdash; deed bundles an adjoining 2.71-ac vacant parcel; best two-parcel structural analog to subject</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270424-21-3800%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 1407 Tom Starling Rd</strong></td><td>1/4/2021</td><td>$230,000</td><td>3,200</td><td>2.26</td><td>$71.88</td><td>5.3 mi</td><td>M2/R6A</td><td>Unity Church of Fayetteville (prior use: Redemption Healing Restoration Church)</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270433-85-4831%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 426 Baywood Rd</strong></td><td>11/4/2021</td><td>$390,000</td><td>3,600</td><td>2.01</td><td>$108.33</td><td>3.6 mi</td><td>C3</td><td>Word of God Christian Center &mdash; deed bundles an adjoining 2.20-ac vacant commercial lot</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270467-81-2396%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 405 N Main St</strong>, Spring Lake</td><td>6/26/2026</td><td>$825,000</td><td>4,875</td><td>1.58</td><td>$169.23</td><td>14.4 mi</td><td>O&amp;I</td><td>The Word Church of Fayetteville &mdash; most recent church sale in the county; high end of range</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270501-66-2834%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>227 Pennsylvania Ave</td><td>5/28/2026</td><td>$373,500</td><td>2,670</td><td>0.34</td><td>$139.89</td><td>7.1 mi</td><td>SF6</td><td>Pentecostal Missionary Church of Christ (4th Watch) &mdash; small urban site, not size-comparable</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270428-74-7654%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>1070 Winslow St</td><td>3/25/2025</td><td>$325,000</td><td>8,125</td><td>0.46</td><td>$40.00</td><td>4.5 mi</td><td>SF6</td><td>Word of Faith Ministries &mdash; large building, minimal land, low end of range</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270436-28-9693%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>2727 Murchison Rd</td><td>7/28/2021</td><td>$375,000</td><td>6,500</td><td>0.23</td><td>$57.69</td><td>7.8 mi</td><td>LC</td><td>Chosen Remnant Ministries &mdash; deed bundles adjoining 0.23-ac lot; small urban site</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270428-68-3483%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>300 Suzanne St</td><td>5/7/2026</td><td>$900,000</td><td>9,644</td><td>4.64</td><td>$93.32</td><td>9.5 mi</td><td>SF10</td><td>The Church of Pentecost USA &mdash; above subject size range, brackets the upper end</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270407-77-9594%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>4648 Bragg Blvd</td><td>3/1/2021</td><td>$440,000</td><td>5,980</td><td>1.70</td><td>$73.58</td><td>9.4 mi</td><td>CC</td><td>Sandhills Islamic Center &mdash; similar building type, not church-specific at time of sale (county class: retail/shop)</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270418-47-1438%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>6317 Raeford Rd</td><td>1/8/2026</td><td>$395,000</td><td>5,225</td><td>0.69</td><td>$75.60</td><td>9.8 mi</td><td>LC</td><td>Redeemed Christian Church of God Victory Temple &mdash; similar building type, not church-specific at time of sale</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270406-49-1725%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 7582 Raeford Rd</strong></td><td>6/15/2017</td><td>$485,000</td><td>6,298</td><td>1.56</td><td>$77.01</td><td>13.2 mi</td><td>OI</td><td>Beauty Spot Missionary Baptist Church &mdash; oldest sale in the set</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%279486-56-6240%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+          </table>
+        </div>
+        <p class="note">All 13 sales are in Cumberland County, NC. Full comp-set statistics: $/SF range $40.00&ndash;$169.23, median $75.60, mean $87.00 (all 13 sales); restricting to the six comps on 1.5&ndash;2.7-acre sites, $/SF range $54.75&ndash;$169.23, median $84.87. Pulled 8/13/2026.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>525 Judson Church Rd &mdash; adjustment matrix</h2>
+        <p class="lede" style="margin-bottom:var(--space-6)">Each comp is adjusted to the subject's own profile: 4,750 SF Kingdom Hall on 2.00 acres, A1-Agricultural zoning, interstate-interchange-adjacent. Two comps (Calico St, Baywood Rd) convey a bundled vacant parcel in the same deed; those are first adjusted to a building-only basis by subtracting the bundled land's value at the rural A1 land median ($20,652/ac, from the Property 2 land comp set below) before size/time adjustments are applied. Positive net adjustments mean the comp understates the subject's indicated value; negative adjustments mean the comp overstates it.</p>
+        <div class="card table-wrap">
+          <table class="table adj-table">
+            <tr><th>Comp property</th><th>Unadj. $/SF</th><th>Net Adj. %</th><th>What was adjusted</th><th>Adj. $/SF</th></tr>
+            <tr>
+              <td><strong>619 Cedar Creek Rd</strong></td><td>$54.75</td><td>+23%</td><td>Size: comp's 11,416 SF building is 140% larger than the subject's 4,750 SF, and larger religious-assembly buildings consistently trade at a lower $/SF, so a smaller building commands a premium (+15%). Time: sale is roughly 4.5 years old; the corridor has appreciated since, evidenced by more recent sales in this set trading well above $54.75/SF (+8%). Location: closest comp in the set at 2.3 mi, same corridor as subject, no location adjustment (0%).</td><td><strong>$67.34</strong></td>
+            </tr>
+            <tr>
+              <td><strong>2415 Rosehill Rd</strong></td><td>$72.45</td><td>+25%</td><td>Size: comp's 4,969 SF is within 5% of the subject's 4,750 SF, no size adjustment (0%). Location: 6.8 mi from subject, off the interchange corridor, versus the subject's interstate-adjacent position (+5%). Time: sale is roughly 8 years old, the oldest usable single-parcel comp; substantial market appreciation applied (+20%).</td><td><strong>$90.56</strong></td>
+            </tr>
+            <tr>
+              <td><strong>4519 Calico St</strong> (land-stripped)</td><td>$84.49*</td><td>+5%</td><td>*Deed bundles an adjoining 2.71-ac vacant parcel; $55,967 of the $425,000 price is allocated to that land at the $20,652/ac A1 median, leaving a building-only basis of $84.49/SF on the 4,368 SF Kingdom Hall-style building. Size: comp is 8% smaller than the subject (&minus;3%). Time: sale is roughly 3 years old (+8%). Location: 6.9 mi from subject, off the interchange corridor, offset within the net figure.</td><td><strong>$88.71</strong></td>
+            </tr>
+            <tr>
+              <td><strong>1407 Tom Starling Rd</strong></td><td>$71.88</td><td>+20%</td><td>Size: comp's 3,200 SF building is 33% smaller than the subject, which would normally support a premium, but the comp's low unadjusted $/SF suggests inferior location/condition largely offsetting the size premium (net 0% on size). Location: 5.3 mi out, industrial-adjacent zoning, inferior to the subject's interchange position (+8%). Time: sale is roughly 5.5 years old (+12%).</td><td><strong>$86.26</strong></td>
+            </tr>
+            <tr>
+              <td><strong>426 Baywood Rd</strong> (land-stripped)</td><td>$95.71*</td><td>+10%</td><td>*Deed bundles an adjoining 2.20-ac vacant commercial lot; $45,434 of the $390,000 price is allocated to that land at the $20,652/ac A1 median, leaving a building-only basis of $95.71/SF on the 3,600 SF building. Size: comp is 24% smaller than subject, largely already reflected in the elevated stripped basis (0%). Time: sale is roughly 4.75 years old (+10%).</td><td><strong>$105.28</strong></td>
+            </tr>
+            <tr>
+              <td><strong>405 N Main St</strong>, Spring Lake</td><td>$169.23</td><td>&minus;15%</td><td>Size: comp's 4,875 SF is within 3% of subject, no size adjustment (0%). Zoning/submarket: comp is O&amp;I (Office &amp; Institution) zoning in the Spring Lake submarket, a materially higher-value zoning classification than the subject's A1-Agricultural designation, and 14.4 mi away (&minus;15%). Time: most recent sale in the set, no time adjustment (0%).</td><td><strong>$143.85</strong></td>
+            </tr>
+            <tr>
+              <td><strong>7582 Raeford Rd</strong></td><td>$77.01</td><td>+35%</td><td>Size: comp's 6,298 SF building is 33% larger than the subject, and larger buildings trade at a lower $/SF, supporting a premium for the smaller subject (+10%). Time: oldest comp in the set at roughly 9 years, the largest time adjustment applied in this grid (+25%). Location: 13.2 mi out, off the interchange corridor, netted into the time figure.</td><td><strong>$103.96</strong></td>
+            </tr>
+          </table>
+        </div>
+        <p class="note">Average of the seven adjusted comps: <strong>$97.99/SF</strong> (range $67.34&ndash;$143.85/SF; median $90.56/SF). Adjustments reflect Grant-Murray Real Estate's professional judgment as the prospective listing broker based on each comp's size, location, sale date, and (for two comps) allocation of bundled land value &mdash; this is a broker's opinion of value for marketing purposes, not a certified USPAP appraisal adjustment analysis.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>525 Judson Church Rd &mdash; opinion of value</h2>
+        <div class="card">
+          <p style="margin-top:0">The seven-comp grid reconciles to an indicated range of roughly <strong>$67&ndash;$144 per SF</strong>, averaging $97.99/SF and medianing $90.56/SF. Applied to the subject's 4,750 SF Kingdom Hall building, that produces an indicated total value of approximately <strong>$320,000 to $683,000</strong>, with a broker's point estimate near <strong>$445,000</strong> (~$93.68/SF) &mdash; weighted toward the comps most comparable in size and market tier (2415 Rosehill Rd, 4519 Calico St, 426 Baywood Rd, all $85&ndash;$105/SF adjusted) and tempered relative to the highest comp (405 N Main St, Spring Lake), which sits in a stronger O&amp;I-zoned submarket the subject does not share.</p>
+          <p>No comp in this data set is a direct church sale within 2 miles of the subject &mdash; the closest, 619 Cedar Creek Rd, is 2.3 miles out &mdash; and no arm's-length church sale in the county was found on A1-Agricultural zoning specifically, so the zoning treatment here is broker judgment applied consistently across the grid, not a comp-derived adjustment. That is disclosed rather than hidden: the $320,000&ndash;$683,000 range is wide because the underlying market has relatively few, dispersed church-building transactions to draw on.</p>
+          <div class="stats" style="margin-top:var(--space-4)">
+            <div class="stat"><div class="stat-label">Indicated value range</div><div class="stat-value">$320,000 &ndash; $683,000</div></div>
+            <div class="stat"><div class="stat-label">Broker point estimate</div><div class="stat-value">~$445,000 (~$93.68/SF)</div></div>
+            <div class="stat stat-alert"><div class="stat-label">Recommended list price</div><div class="stat-value">$459,900 (~$96.82/SF)</div></div>
+            <div class="stat"><div class="stat-label">Assessed value (reference only)</div><div class="stat-value">$336,112</div></div>
+          </div>
+          <p class="note" style="margin-top:1.5rem">Grant-Murray Real Estate recommends an initial list price of <strong>$459,900</strong> for 525 Judson Church Rd &mdash; modestly above the point estimate to preserve normal negotiating room on a new listing, while remaining well inside the comp-supported range and below every comp except the Spring Lake O&amp;I sale. This is a broker's opinion for marketing purposes, not a certified USPAP appraisal.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="prop-divider container"><div class="badge two">Property 2</div><hr/></div>
+
+    <section class="alt">
+      <div class="container">
+        <h2>541 Judson Church Rd &mdash; comparable land sales</h2>
+        <p class="lede" style="margin-bottom:var(--space-6)">Nine verified, arm's-length A1-Agricultural vacant land sales in Cumberland County, the zoning classification that matches the subject. Seven of the nine are used in the adjustment matrix below (marked <strong>&#9733;</strong>); the remaining two, more distant/larger A1 tracts (3740 A B Carter Rd, 3795 Batcave Dr), are included in the table for full disclosure but excluded from the matrix as lower-weight outliers on size. Four CC/LC-zoned interchange-commercial land sales are discussed separately below for context on rezoning upside, but are not used as direct comps given the subject's current A1 zoning.</p>
+        <div class="card table-wrap">
+          <table class="table comps-table">
+            <tr><th>Comp</th><th>Sale Date</th><th>Price</th><th>Acreage</th><th>$/Acre</th><th>Dist.</th><th>Zoning</th><th>Notes</th><th>Source</th></tr>
+            <tr><td><strong>&#9733; 3108 A B Carter Rd</strong></td><td>7/22/2025</td><td>$65,000</td><td>1.55</td><td>$41,935</td><td>0.97 mi</td><td>A1</td><td>Closest A1 comp to the interchange; sits above the rural A1 median</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270455-96-2109%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 3051 Fields Rd</strong></td><td>11/24/2025</td><td>$75,000</td><td>2.00</td><td>$37,500</td><td>1.83 mi</td><td>A1</td><td>New-subdivision 2.00-ac lot, same size as subject's improved parcel</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=DEED_BOOK%3D%2712385%27+AND+DEED_PAGE%3D%270286%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 3511 Cedar Creek Rd</strong></td><td>4/8/2026</td><td>$47,500</td><td>2.09</td><td>$22,727</td><td>2.63 mi</td><td>A1</td><td>Rural segment of Cedar Creek Rd corridor</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270465-50-7294%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 3123 Cedar Creek Rd</strong></td><td>7/21/2023</td><td>$37,500</td><td>2.01</td><td>$18,657</td><td>2.06 mi</td><td>A1</td><td>Key "rural A1 baseline" data point away from the interchange</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270465-21-8493%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 3445 Peaceful Farm Dr</strong></td><td>10/16/2025</td><td>$40,000</td><td>2.00</td><td>$20,000</td><td>1.70 mi</td><td>A1</td><td>Rural recombination lot</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270465-34-0909%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 1067 Old Vander Rd</strong></td><td>6/23/2026</td><td>$80,000</td><td>3.08</td><td>$25,974</td><td>3.29 mi</td><td>A1</td><td>Rural, larger tract than subject</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270476-10-8429%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td><strong>&#9733; 1000 Old Vander Rd</strong></td><td>12/10/2025</td><td>$95,000</td><td>4.60</td><td>$20,652</td><td>3.12 mi</td><td>A1</td><td>Rural, largest tract in the set; sets the countywide A1 median</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270476-00-9717%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>3740 A B Carter Rd</td><td>11/22/2023</td><td>$53,500</td><td>4.83</td><td>$11,077</td><td>1.99 mi</td><td>A1</td><td>Larger tract, lower $/ac; excluded from matrix as a size outlier</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270465-33-7224%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+            <tr><td>3795 Batcave Dr</td><td>3/10/2025</td><td>$58,500</td><td>5.96</td><td>$9,815</td><td>2.11 mi</td><td>A1</td><td>Largest tract, lowest $/ac; excluded from matrix as a size outlier</td><td><a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270466-44-0812%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">GIS</a></td></tr>
+          </table>
+        </div>
+        <p class="note">All nine A1 comps are in Cumberland County, NC. Full A1 comp-set statistics: $9,815&ndash;$41,935/ac, median $20,652/ac. For context, four CC/LC-zoned interchange-commercial land sales within 1.1 mi of the subject sold for $71,006&ndash;$284,091/ac (median $200,749/ac) &mdash; see <a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=LOCATION_ADDR%3D%27520+JUDSON+CHURCH+RD%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">520 Judson Church Rd</a> and <a href="https://gis.co.cumberland.nc.us/server/rest/services/Tax/Parcels/MapServer/0/query?where=NAD83_PIN%3D%270455-18-6720%27&outFields=%2A&returnGeometry=false&f=pjson" target="_blank" rel="noopener">1885 Cedar Creek Rd</a> &mdash; but these require a rezoning the subject does not currently have and are not used as direct value comps. Pulled 8/13/2026.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>541 Judson Church Rd &mdash; adjustment matrix</h2>
+        <p class="lede" style="margin-bottom:var(--space-6)">Each comp is adjusted to the subject's own profile: 2.72 vacant acres, A1-Agricultural zoning, sitting directly inside the I-95 / Cedar Creek Rd interchange node (effectively 0 mi from the interchange itself). Location adjustments push every comp upward because every comp is measurably farther from the interchange than the subject; size adjustments reflect that smaller tracts trade at a per-acre premium and larger tracts at a discount.</p>
+        <div class="card table-wrap">
+          <table class="table adj-table">
+            <tr><th>Comp property</th><th>Unadj. $/ac</th><th>Net Adj. %</th><th>What was adjusted</th><th>Adj. $/ac</th></tr>
+            <tr>
+              <td><strong>3108 A B Carter Rd</strong></td><td>$41,935</td><td>+5%</td><td>Size: comp's 1.55 ac is 43% smaller than the subject's 2.72 ac, a per-acre premium to strip out (&minus;10%). Location: comp is 0.97 mi from the interchange versus the subject's on-node position, so the subject rates a further premium (+15%). Time: sale is roughly 1 year old (0%).</td><td><strong>$44,032</strong></td>
+            </tr>
+            <tr>
+              <td><strong>3051 Fields Rd</strong></td><td>$37,500</td><td>+7%</td><td>Size: comp's 2.00 ac is 27% smaller (&minus;5%). Location: 1.83 mi out, farther than 3108 A B Carter Rd (+12%). Time: recent sale (0%).</td><td><strong>$40,125</strong></td>
+            </tr>
+            <tr>
+              <td><strong>3511 Cedar Creek Rd</strong></td><td>$22,727</td><td>+15%</td><td>Size: comp's 2.09 ac is 23% smaller (&minus;3%). Location: 2.63 mi out, the farthest of the primary comps (+18%). Time: most recent sale in the set (0%).</td><td><strong>$26,136</strong></td>
+            </tr>
+            <tr>
+              <td><strong>3123 Cedar Creek Rd</strong></td><td>$18,657</td><td>+20%</td><td>Size: comp's 2.01 ac is 26% smaller (&minus;3%). Location: 2.06 mi out, the "rural A1 baseline" away from the interchange (+15%). Time: sale is roughly 3 years old (+8%).</td><td><strong>$22,388</strong></td>
+            </tr>
+            <tr>
+              <td><strong>3445 Peaceful Farm Dr</strong></td><td>$20,000</td><td>+9%</td><td>Size: comp's 2.00 ac is 27% smaller (&minus;3%). Location: 1.70 mi out (+12%). Time: recent sale (0%).</td><td><strong>$21,800</strong></td>
+            </tr>
+            <tr>
+              <td><strong>1067 Old Vander Rd</strong></td><td>$25,974</td><td>+25%</td><td>Size: comp's 3.08 ac is 13% larger than subject, and larger tracts trade at a lower $/ac, so the smaller subject rates a premium (+5%). Location: 3.29 mi out, the most distant comp used (+20%). Time: most recent sale in the set (0%).</td><td><strong>$32,468</strong></td>
+            </tr>
+            <tr>
+              <td><strong>1000 Old Vander Rd</strong></td><td>$20,652</td><td>+32%</td><td>Size: comp's 4.60 ac is 69% larger than subject, the largest size gap in the set, supporting the largest size premium (+12%). Location: 3.12 mi out (+20%). Time: recent sale (0%).</td><td><strong>$27,261</strong></td>
+            </tr>
+          </table>
+        </div>
+        <p class="note">Average of the seven adjusted comps: <strong>$30,601/acre</strong> (range $21,800&ndash;$44,032/ac; median $27,261/ac). Adjustments reflect Grant-Murray Real Estate's professional judgment as the prospective listing broker, applying the interchange-proximity premium disclosed in the market context section above; this is a broker's opinion of value for marketing purposes, not a certified USPAP appraisal adjustment analysis.</p>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>541 Judson Church Rd &mdash; opinion of value</h2>
+        <div class="card">
+          <p style="margin-top:0">The seven-comp grid reconciles to an indicated range of roughly <strong>$21,800&ndash;$44,032 per acre</strong>, averaging $30,601/ac and medianing $27,261/ac. Applied to the subject's 2.72 vacant acres, that produces an indicated total value of approximately <strong>$59,000 to $120,000</strong>, with a broker's point estimate near <strong>$80,000</strong> (~$29,412/ac) &mdash; weighted toward the two comps closest to the interchange (3108 A B Carter Rd and 3051 Fields Rd, both adjusted above $40,000/ac) while still respecting the pull of the more distant, larger-tract comps toward the lower end of the range.</p>
+          <p><strong>Honest disclosure on the upside case:</strong> if 541 could be rezoned to CC or LC commercial &mdash; consistent with the four interchange-commercial land sales at $71,006&ndash;$284,091/ac discussed above &mdash; its value could be several times this estimate. That upside is real but speculative absent an actual rezoning application, and this report does not price it in as a value conclusion; it is disclosed as a strategic consideration for the seller, not folded into the recommended list price below. The subject's own $19,483/ac assessed land value falls near the low end of the comp-adjusted range, which is expected given assessed values in North Carolina typically lag verified market transactions.</p>
+          <div class="stats" style="margin-top:var(--space-4)">
+            <div class="stat"><div class="stat-label">Indicated value range</div><div class="stat-value">$59,000 &ndash; $120,000</div></div>
+            <div class="stat"><div class="stat-label">Broker point estimate</div><div class="stat-value">~$80,000 (~$29,412/ac)</div></div>
+            <div class="stat stat-alert"><div class="stat-label">Recommended list price</div><div class="stat-value">$84,900 (~$31,213/ac)</div></div>
+            <div class="stat"><div class="stat-label">Assessed value (reference only)</div><div class="stat-value">$52,993</div></div>
+          </div>
+          <p class="note" style="margin-top:1.5rem">Grant-Murray Real Estate recommends an initial list price of <strong>$84,900</strong> for 541 Judson Church Rd &mdash; just above the point estimate, inside the comp-supported range, and reflecting a modest premium for the parcel's on-node interchange location and rezoning optionality without overstating that optionality as realized value. This is a broker's opinion for marketing purposes, not a certified USPAP appraisal.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Listing / commission terms</h2>
+        <div class="card">
+          <div class="terms-grid">
+            <div>
+              <h4>6% &mdash; co-brokered sale</h4>
+              <p>A 6% commission applies to the gross sale price when the buyer is procured through a cooperating (buyer's-side) broker. This is split between Grant-Murray Real Estate, LLC as listing broker and the cooperating buyer's broker per standard MLS/commercial co-brokerage practice.</p>
+            </div>
+            <div>
+              <h4>4% &mdash; in-house sale</h4>
+              <p>A 4% commission applies when Grant-Murray Real Estate, LLC procures the buyer directly, with no cooperating buyer's broker involved in the transaction.</p>
+            </div>
+          </div>
+          <p class="note">These terms apply independently to each parcel's sale price if the two parcels sell separately, or to the combined sale price if sold together. Final listing agreement terms, duration, and any marketing-cost provisions are to be set out in a separate written listing agreement between Grant-Murray Real Estate, LLC and Fay East Congregation of Jehovah's Witnesses Fay NC Inc.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="alt">
+      <div class="container">
+        <h2>Limitations</h2>
+        <div class="card">
+          <ol style="margin:0 0 0 1.2rem;padding:0">
+            <li style="margin-bottom:.6rem">Cumberland County prices are derived from excise stamps ($1 of stamps = $500 of price); stamps are not paid on exempt transfers, so a 0-stamp parcel (including both subject parcels' 2016 acquisition) indicates a non-arm's-length transfer with no usable price. See the <a href="https://www.ccrod.org/frequently-asked-questions/" target="_blank" rel="noopener">Register of Deeds excise-tax schedule</a>.</li>
+            <li style="margin-bottom:.6rem"><strong>Grantor (seller) names are unavailable</strong> for every comp in this report &mdash; the county Register of Deeds public search did not respond during this research session, so only buyer (post-sale owner) names could be confirmed from the GIS layer.</li>
+            <li style="margin-bottom:.6rem"><strong>Building age (YEAR_BUILT) is not populated</strong> for the subject or for any comp in the church/religious-assembly set, so no age or condition adjustment is quantified from county data; any such difference is embedded, unquantified, in the broker's judgment-based net adjustments above.</li>
+            <li style="margin-bottom:.6rem">Building area is the county assessor's <em>GROSS_LEASABLE_AREA</em> field, not a field measurement, for both the subject and every comp &mdash; consistent basis, but not independently verified by physical measurement.</li>
+            <li style="margin-bottom:.6rem">Acreage used throughout is <strong>county tax acreage</strong>, not surveyed acreage.</li>
+            <li style="margin-bottom:.6rem">The land-value allocation used to strip bundled vacant land out of the 4519 Calico St and 426 Baywood Rd comps ($20,652/ac) is the median of the separate A1 land comp set, not a parcel-specific appraisal of those bundled tracts, and carries additional uncertainty as a result.</li>
+            <li>No confirmed closed sale of a rezoned, commercially-entitled Judson Church Rd-adjacent A1 parcel was located; any premium attributed to 541's rezoning potential is broker judgment, disclosed as such, and is not folded into the recommended list price.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container two-col">
+        <div class="card">
+          <h3>Prepared by</h3>
+          <p><strong>Patrick Murray, CCIM, SIOR</strong><br/>Principal / Broker in Charge<br/>Grant-Murray Real Estate, LLC</p>
+          <p style="margin-top:.75rem">150 N. McPherson Church Rd<br/>Fayetteville, NC 28303</p>
+          <p style="margin-top:.75rem">O: 910.829.1617 &middot; C: 910.861.0449<br/>patrick@grantmurrayre.com<br/><a href="https://www.grantmurrayre.com" target="_blank" rel="noopener">grantmurrayre.com</a></p>
+        </div>
+        <div class="card">
+          <h3>Prepared for</h3>
+          <p><strong>Fay East Congregation of Jehovah's Witnesses Fay NC Inc</strong><br/>Owner of record, 525 &amp; 541 Judson Church Rd (PINs 0455-48-6526 &amp; 0455-48-6756)</p>
+          <p class="disclaimer">This Broker Price Opinion (BPO) is prepared by Patrick Murray, CCIM, SIOR, of Grant-Murray Real Estate, LLC. It is not an appraisal and does not constitute a certified valuation under USPAP. The value conclusions herein are based on comparable market sales data and the broker's professional judgment as of the date noted, are priced independently for each of the two subject parcels, and are subject to verification, changing market conditions, deed-level confirmation, and further due diligence.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <img class="footer-logo" src="assets/gm-logo.svg" alt="Grant-Murray Real Estate" />
+      <div>
+        Broker Price Opinion — prepared 8/13/2026.<br/>
+        Prepared by Grant-Murray Real Estate | CCIM | SIOR
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
